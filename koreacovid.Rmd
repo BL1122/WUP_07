@@ -78,8 +78,13 @@ The numerical results show that 64% of dead people where males and 36% of the de
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+Based on the inferential results, looking at Fisher's exact test for count data, if you are a male, you are 2.3 times more likely to die from Covid compared to females. 
 
 ## Conclusions
 
