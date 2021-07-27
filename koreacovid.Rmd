@@ -87,4 +87,4 @@ fisher.test(table1)
 Based on the inferential results, looking at Fisher's exact test for count data, if you are a male, you are 2.3 times more likely to die from Covid compared to females. 
 
 ## Conclusions
-
+We used the Cat~cat helper file and we added kRdata$sex and kRdata$result to give us factors. We added the barchart which showed the amount of deaths of 100 and it appeared that male deaths were 60% and female deaths were 40%. The numerical results showed that 64% males died from Covid and 36% of females died from Covid. Through the inferential results we could conclude that males are 2.3 times more likely to die from Covid than females. Therefore, we can reject the null hypothesis which states that Covid deaths are independent of sex.
